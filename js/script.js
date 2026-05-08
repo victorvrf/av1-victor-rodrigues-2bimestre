@@ -83,7 +83,7 @@ function renderizarImagens(listaDados) {
                 <img src="${item.url}" class="card-img-top" alt="${item.title}" loading="lazy">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title text-truncate" title="${item.title}">${item.title}</h5>
-                    <div class="mb-2 text-muted small">📅 ${dataFormatada}</div>
+                    <div class="mb-2 text-light small">📅 ${dataFormatada}</div>
                     <p class="card-text mb-4">${item.explanation}</p>
                     <a href="detalhes.html?date=${item.date}" class="btn btn-primary mt-auto">Ver detalhes</a>
                 </div>
